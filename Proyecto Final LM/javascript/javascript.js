@@ -1,7 +1,7 @@
 // script.js
 
 // Obtener todos los botones "Agregar al carrito"
-const addToCartButtons = document.querySelectorAll('.product button');
+const addToCartButtons = document.querySelectorAll('.productos button');
 
 // Función que se ejecuta al hacer clic en el botón "Agregar al carrito"
 function addToCart(event) {
