@@ -65,7 +65,8 @@ body {
   
   footer{
     background-color: aqua;
-    height: 30px;
+    height: 100%; 
+    width: 100%;
     float: left;
   }
   /* Estilos
