@@ -16,6 +16,11 @@ body {
   
   header h1 {
     margin: 0;
+  } 
+  .nav {
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -40px;
   }
   
   nav ul {
