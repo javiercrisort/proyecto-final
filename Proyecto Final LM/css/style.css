@@ -9,9 +9,9 @@ body {
   
   /* Estilos de encabezado */
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color:aqua;
+    color:black;
+    padding: 30px;
   }
   
   header h1 {
@@ -19,8 +19,8 @@ body {
   } 
   .nav {
     position: relative;
-    margin-left: 1000px;
-    margin-top: -40px;
+    margin-left: 20%;
+  
   }
   
   nav ul {
@@ -32,10 +32,24 @@ body {
     display: inline;
     margin-right: 10px;
   }
+  .productos img{
+    width: 100%;
+  }
+  .productos {
+    width: 15%;
+    float: left;
+  }
   
   nav ul li a {
-    color: #fff;
+    color:black;
     text-decoration: none;
+  }
+  .icono-menu{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: none;
+    
   }
   
   /* Estilos de contenido principal */
@@ -76,5 +90,20 @@ body {
   }
 
 
-  /* Estilos
+  /* Estilos*/
+  @media only screen and (max-width:700px){
+    .icono-menu{
+      display:block;
+    }
+    .menu{
+      display: none;
+    }
+  }
+  @media only screen and (max-width:1120px){
+    .productos{
+      float: none;
+    }
+  }
+  
+
   
